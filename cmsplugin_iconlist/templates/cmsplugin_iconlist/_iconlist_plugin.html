@@ -1,0 +1,16 @@
+{% load sekizai_tags staticfiles %}
+
+{% addtoblock "css" %}<link rel="stylesheet" href="{{STATIC_URL}}cmsplugin_iconlist/css/style.css">{% endaddtoblock %}
+{% addtoblock "css" %}<link rel="stylesheet" href="{{STATIC_URL}}cmsplugin_iconlist/css/font-awesome.min.css">{% endaddtoblock %}
+
+<div class="icon-list-container">
+	<ul class="icon-list">
+		{% for icon in items %}
+		<a href="{{icon.link}}" target="_blank">
+      <li class="icon-list-item" style="background-color: {{icon.background_color}}; color: {{icon.color}};">
+				<i class="fa {{icon.icon}}"></i>
+			</li>
+		</a>
+		{% endfor %}
+	</ul>
+</div>
