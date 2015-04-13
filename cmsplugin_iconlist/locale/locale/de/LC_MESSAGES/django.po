@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-13 11:09-0500\n"
+"POT-Creation-Date: 2015-04-13 11:30-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,11 @@ msgstr ""
 msgid "name"
 msgstr "Name"
 
-#: models.py:51 models.py:58
+#: models.py:51
+msgid "icon"
+msgstr "Icon"
+
+#: models.py:58
 msgid "icon color"
 msgstr "Icon-Farbe"
 

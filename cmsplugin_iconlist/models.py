@@ -48,7 +48,7 @@ class Icon(models.Model):
     )
 
     icon = models.CharField(
-        _('icon color'),
+        _('icon'),
         max_length=200,
         blank=False,
         choices=ICON_CHOICES,
