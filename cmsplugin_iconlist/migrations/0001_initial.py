@@ -11,7 +11,7 @@ class Migration(SchemaMigration):
         # Adding model 'IconList'
         db.create_table(u'cmsplugin_iconlist_iconlist', (
             (u'cmsplugin_ptr', self.gf('django.db.models.fields.related.OneToOneField')(to=orm['cms.CMSPlugin'], unique=True, primary_key=True)),
-            ('name', self.gf('django.db.models.fields.CharField')(default='', max_length=32)),
+            ('name', self.gf('django.db.models.fields.CharField')(default='', max_length=32, null=True, blank=True)),
         ))
         db.send_create_signal(u'cmsplugin_iconlist', ['IconList'])
 
@@ -69,7 +69,7 @@ class Migration(SchemaMigration):
         u'cmsplugin_iconlist.iconlist': {
             'Meta': {'object_name': 'IconList', '_ormbases': ['cms.CMSPlugin']},
             u'cmsplugin_ptr': ('django.db.models.fields.related.OneToOneField', [], {'to': "orm['cms.CMSPlugin']", 'unique': 'True', 'primary_key': 'True'}),
-            'name': ('django.db.models.fields.CharField', [], {'default': "''", 'max_length': '32'})
+            'name': ('django.db.models.fields.CharField', [], {'default': "''", 'max_length': '32', 'null': 'True', 'blank': 'True'})
         }
     }
 
