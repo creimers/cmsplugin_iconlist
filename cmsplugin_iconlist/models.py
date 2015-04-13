@@ -10,7 +10,8 @@ class IconList(CMSPlugin):
 
     name = models.CharField(
         _('name'),
-        blank=False,
+        blank=True,
+        null=True,
         default='',
         max_length=32,
     )
