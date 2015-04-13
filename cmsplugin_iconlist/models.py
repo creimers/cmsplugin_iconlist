@@ -18,7 +18,7 @@ class IconList(CMSPlugin):
     def copy_relations(self, oldinstance):
         for associated_item in oldinstance.associated_item.all():
             associated_item.pk = None
-            associated_item.social_list = self
+            associated_item.icon_list = self
             associated_item.save()
 
     def __str__(self):
