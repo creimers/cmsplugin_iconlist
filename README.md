@@ -13,7 +13,7 @@ A djangocms plugin displaying font-awesome icons in a list.
 
 if you're using Django >= 1.7:
 
-* add ``'cmsplugin_iconlist': 'cmsplugin_instagram.migrations_django'`` to ``MIGRATION_MODULES`` in ``settings.py``
+* add ``'cmsplugin_iconlist': 'cmsplugin_iconlist.migrations_django'`` to ``MIGRATION_MODULES`` in ``settings.py``
 
 * migrate the database
 
