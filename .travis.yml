@@ -6,14 +6,12 @@ python:
   - 3.4
 
 env:
-  - DJANGO=1.6
   - DJANGO=1.7
-  - DJANGO=1.8
 
 # command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
 install:
-  - pip install Django==$DJANGO
-  - python setup.py install
+  - pip install -q Django==$DJANGO
+  - python setup.py -q install
 
 script: python manage.py test
 
