@@ -13,6 +13,6 @@ install:
   - pip install -q Django==$DJANGO
   - python setup.py -q install
 
-script: python manage.py test
+script: ./manage.py test
 
 after_success: coveralls
