@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/creimers/cmsplugin_iconlist.svg?branch=develop)](https://travis-ci.org/creimers/cmsplugin_iconlist)
 [![Latest Version](https://pypip.in/version/cmsplugin_iconlist/badge.svg)](https://pypi.python.org/pypi/cmsplugin-iconlist/)
 [![Supported Python versions](https://pypip.in/py_versions/cmsplugin_iconlist/badge.svg)](https://pypi.python.org/pypi/cmsplugin-iconlist/)
 [![Development Status](https://pypip.in/status/cmsplugin_iconlist/badge.svg)](https://pypi.python.org/pypi/cmsplugin_iconlist/)
