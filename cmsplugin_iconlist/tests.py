@@ -30,7 +30,24 @@ class IconListTestCase(TestCase, BaseCMSTestCase):
 
     def test_add_iconlist_plugin(self):
         iconlist_plugin = api.add_plugin(
-            self.placeholder, cms_plugins.IconListPlugin, self.language, name='affe'
+            self.placeholder,
+            cms_plugins.IconListPlugin,
+            self.language,
+            name='affe'
+        )
+        icon = models.Icon(
+            icon='fa-facebook',
+            link='http://www.superservice-international.com'
+        )
+        icon.icon_list = iconlist_plugin
+
+        self.assertTrue(
+            models.IconList.objects.filter(pk=iconlist_plugin.pk).exists()
         )
 
-        self.assertTrue(models.IconList.objects.filter(pk=iconlist_plugin.pk).exists())
+    def test_render_page(self):
+        self.test_add_iconlist_plugin()
+        api.publish_page(self.page, self.superuser, self.language)
+        response = self.client.get(self.page.get_absolute_url())
+        
+        self.assertTrue("icon-list-container" in response.rendered_content)
