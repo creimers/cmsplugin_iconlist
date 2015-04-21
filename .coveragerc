@@ -1,3 +1,3 @@
 [run]
 source = cmsplugin_iconlist
-ommit = 'cmsplugin_iconlist/migrations*'
+omit = 'cmsplugin_iconlist/migrations*'
