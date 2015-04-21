@@ -35,6 +35,7 @@ class IconListTestCase(TestCase, BaseCMSTestCase):
             self.language,
             name='affe'
         )
+
         icon = models.Icon(
             icon='fa-facebook',
             link='http://www.superservice-international.com'
@@ -44,6 +45,7 @@ class IconListTestCase(TestCase, BaseCMSTestCase):
         icon.save()
 
         self.assertTrue(icon.__str__() == 'fa-facebook')
+        self.assertTrue(iconlist_plugin.__str__() == 'affe')
         self.assertTrue(
             models.IconList.objects.filter(pk=iconlist_plugin.pk).exists()
         )
