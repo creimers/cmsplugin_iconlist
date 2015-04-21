@@ -40,6 +40,8 @@ class IconListTestCase(TestCase, BaseCMSTestCase):
             link='http://www.superservice-international.com'
         )
         icon.icon_list = iconlist_plugin
+        
+        icon.save()
 
         self.assertTrue(icon.__str__() == 'fa-facebook')
         self.assertTrue(
@@ -50,5 +52,6 @@ class IconListTestCase(TestCase, BaseCMSTestCase):
         self.test_add_iconlist_plugin()
         api.publish_page(self.page, self.superuser, self.language)
         response = self.client.get(self.page.get_absolute_url())
-        
+
         self.assertTrue("icon-list-container" in response.rendered_content)
+        self.assertTrue("superservice" in response.rendered_content)
