@@ -4,9 +4,10 @@
 [![Supported Python versions](https://pypip.in/py_versions/cmsplugin_iconlist/badge.svg)](https://pypi.python.org/pypi/cmsplugin-iconlist/)
 [![Development Status](https://pypip.in/status/cmsplugin_iconlist/badge.svg)](https://pypi.python.org/pypi/cmsplugin_iconlist/)
 [![Code Climate](https://codeclimate.com/github/creimers/cmsplugin_iconlist/badges/gpa.svg)](https://codeclimate.com/github/creimers/cmsplugin_iconlist)
+
 # djangocms icon list plugin
 
-A djangocms plugin displaying font-awesome icons in a list, like so:
+A djangocms plugin displaying font-awesome icons in a list, like so for example:
 
 ![preview](preview.png)
 
@@ -24,7 +25,7 @@ if you're using Django >= 1.7:
 
 ## Customize avaliable icons
 
-In case you need other icons than the defaults, add the ``ICON_LIST`` variable to settings like so:
+In case you need other icons than the defaults, add the ``ICON_LIST`` variable to 'settings.py' like so:
 
 ```
 ICON_CHOICES = (
