@@ -8,12 +8,12 @@ python:
 env:
   - DJANGO=1.7.7
 
-# command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
 install:
   - pip install -r test-requirements.txt
   - pip install -q Django==$DJANGO
   - python setup.py -q install
 
 script: 
-  #- python fake_test.py
   - $(which djangocms-helper) cmsplugin_iconlist test --cms
+
+after_success: coveralls
