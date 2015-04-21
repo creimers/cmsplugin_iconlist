@@ -5,13 +5,15 @@
 [![Code Climate](https://codeclimate.com/github/creimers/cmsplugin_iconlist/badges/gpa.svg)](https://codeclimate.com/github/creimers/cmsplugin_iconlist)
 # djangocms icon list plugin
 
-A djangocms plugin displaying font-awesome icons in a list.
+A djangocms plugin displaying font-awesome icons in a list, like so:
+
+![preview](preview.png)
 
 ## Installation
 
 * ``pip install cmsplugin_iconlist``
 
-* add ``cmsplugin_iconlist`` to ``INSTALLED_APPS`` in ``settings.py``
+* add ``'cmsplugin_iconlist'`` to ``INSTALLED_APPS`` in ``settings.py``
 
 if you're using Django >= 1.7:
 
