@@ -6,7 +6,7 @@ python:
   - 3.4
 
 env:
-  - DJANGO=1.7
+  - DJANGO=1.7.7
 
 # command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
 install:
@@ -15,4 +15,5 @@ install:
   - python setup.py -q install
 
 script: 
-  - python fake_test.py
+  #- python fake_test.py
+  - $(which djangocms-helper) cmsplugin_iconlist test --cms
