@@ -41,6 +41,7 @@ class IconListTestCase(TestCase, BaseCMSTestCase):
         )
         icon.icon_list = iconlist_plugin
 
+        self.assertTrue(icon.__str__() == 'fa-facebook')
         self.assertTrue(
             models.IconList.objects.filter(pk=iconlist_plugin.pk).exists()
         )
