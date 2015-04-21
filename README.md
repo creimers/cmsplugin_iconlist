@@ -25,7 +25,7 @@ if you're using Django >= 1.7:
 
 ## Customize avaliable icons
 
-In case you need other icons than the defaults, add the ``ICON_LIST`` variable to 'settings.py' like so:
+In case you need other icons than the defaults, add the ``ICON_LIST`` variable to ``settings.py`` like so:
 
 ```
 ICON_CHOICES = (
@@ -35,4 +35,4 @@ ICON_CHOICES = (
 )
 ```
 
-A full list of available icons can be found [here](http://fontawesome.io/icons/).
+A full list of available icons can be found at [fontawesome](http://fontawesome.io/icons/).
