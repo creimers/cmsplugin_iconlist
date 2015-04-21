@@ -1,3 +1,5 @@
 [run]
 source = cmsplugin_iconlist
-omit = 'cmsplugin_iconlist/migrations*'
+
+[report]
+omit = ../*migrations*,../*tests*
