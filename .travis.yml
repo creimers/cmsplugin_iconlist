@@ -14,6 +14,6 @@ install:
   - python setup.py -q install
 
 script: 
-  - $(which djangocms-helper) cmsplugin_iconlist test --cms
+  - coverage run $(which djangocms-helper) cmsplugin_iconlist test --cms
 
 after_success: coveralls
