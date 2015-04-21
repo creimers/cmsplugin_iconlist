@@ -14,7 +14,7 @@ HELPER_SETTINGS = {
     'LANGUAGES': (
         ('de', gettext('de')),
     ),
-    'CMS_LANGUAGES' = {
+    'CMS_LANGUAGES': {
         ## Customize this
         1: [
             {
@@ -35,5 +35,7 @@ HELPER_SETTINGS = {
         'django.contrib.messages.middleware.MessageMiddleware',
     ],
     'MIGRATION_MODULES': {
+        'cms': 'cms.migrations_django',
+        'cmsplugin_iconlist': 'cmsplugin_iconlist.migrations_django',
     },
 }
