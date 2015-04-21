@@ -1,2 +1,3 @@
 [run]
-source= cmsplugin_iconlist
+source = cmsplugin_iconlist
+ommit = 'cmsplugin_iconlist/migrations*'
