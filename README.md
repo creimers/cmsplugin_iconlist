@@ -4,7 +4,7 @@
 [![Supported Python versions](https://pypip.in/py_versions/cmsplugin_iconlist/badge.svg)](https://pypi.python.org/pypi/cmsplugin-iconlist/)
 [![Development Status](https://pypip.in/status/cmsplugin_iconlist/badge.svg)](https://pypi.python.org/pypi/cmsplugin_iconlist/)
 [![Code Climate](https://codeclimate.com/github/creimers/cmsplugin_iconlist/badges/gpa.svg)](https://codeclimate.com/github/creimers/cmsplugin_iconlist)
-
+[![Requirements Status](https://requires.io/github/creimers/cmsplugin_iconlist/requirements.svg?branch=develop)](https://requires.io/github/creimers/cmsplugin_iconlist/requirements/?branch=develop)
 # djangocms icon list plugin
 
 A djangocms plugin displaying font-awesome icons in a list, like so for example:
