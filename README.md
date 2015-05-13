@@ -25,7 +25,7 @@ if you're using Django < 1.7:
 
 ## Customize avaliable icons
 
-In case you need other icons than the defaults, add the ``ICON_LIST`` variable to ``settings.py`` like so:
+In case you need other icons than the defaults, add the ``ICON_CHOICES`` variable to ``settings.py`` like so:
 
 ```
 ICON_CHOICES = (
