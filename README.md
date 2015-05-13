@@ -17,9 +17,9 @@ A djangocms plugin displaying font-awesome icons in a list, like so for example:
 
 * add ``'cmsplugin_iconlist'`` to ``INSTALLED_APPS`` in ``settings.py``
 
-if you're using Django >= 1.7:
+if you're using Django < 1.7:
 
-* add ``'cmsplugin_iconlist': 'cmsplugin_iconlist.migrations_django'`` to ``MIGRATION_MODULES`` in ``settings.py``
+* migrations are in ``migrations_south``.
 
 * migrate the database
 

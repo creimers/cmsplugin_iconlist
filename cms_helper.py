@@ -9,6 +9,7 @@ HELPER_SETTINGS = {
         '-s',
     ],
     'INSTALLED_APPS': [
+        'cmsplugin_iconlist',
     ],
     'LANGUAGE_CODE': 'de',
     'LANGUAGES': (
@@ -34,8 +35,4 @@ HELPER_SETTINGS = {
     'MIDDLEWARE_CLASSES': [
         'django.contrib.messages.middleware.MessageMiddleware',
     ],
-    'MIGRATION_MODULES': {
-        'cms': 'cms.migrations_django',
-        'cmsplugin_iconlist': 'cmsplugin_iconlist.migrations_django',
-    },
 }

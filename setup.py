@@ -18,7 +18,7 @@ setup(
     license='BSD License',
     url = 'https://github.com/creimers/cmsplugin_iconlist',
     keywords = ['djangocms', 'django', 'font awesome',], 
-    install_requires = ['django-cms>=3.0, <3.1',],
+    install_requires = ['django-cms>=3.0',],
     classifiers = [
         'Operating System :: OS Independent',
         'Development Status :: 4 - Beta',
