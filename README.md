@@ -1,8 +1,8 @@
 [![Build Status](https://travis-ci.org/creimers/cmsplugin_iconlist.svg?branch=develop)](https://travis-ci.org/creimers/cmsplugin_iconlist)
 [![Coverage Status](https://coveralls.io/repos/creimers/cmsplugin_iconlist/badge.svg?branch=develop)](https://coveralls.io/r/creimers/cmsplugin_iconlist?branch=develop)
-[![Latest Version](https://pypip.in/version/cmsplugin_iconlist/badge.svg)](https://pypi.python.org/pypi/cmsplugin-iconlist/)
-[![Supported Python versions](https://pypip.in/py_versions/cmsplugin_iconlist/badge.svg)](https://pypi.python.org/pypi/cmsplugin-iconlist/)
-[![Development Status](https://pypip.in/status/cmsplugin_iconlist/badge.svg)](https://pypi.python.org/pypi/cmsplugin_iconlist/)
+[![Latest Version](https://img.shields.io/pypi/v/cmsplugin_iconlist.svg)](https://pypi.python.org/pypi/cmsplugin_iconlist)
+[![Supported Python versions](https://img.shields.io/pypi/pyversions/cmsplugin_iconlist.svg)](https://pypi.python.org/pypi/cmsplugin_iconlist)
+[![Status](https://img.shields.io/pypi/status/cmsplugin_iconlist.svg)](https://pypi.python.org/pypi/cmsplugin_iconlist)
 [![Code Climate](https://codeclimate.com/github/creimers/cmsplugin_iconlist/badges/gpa.svg)](https://codeclimate.com/github/creimers/cmsplugin_iconlist)
 [![Requirements Status](https://requires.io/github/creimers/cmsplugin_iconlist/requirements.svg?branch=develop)](https://requires.io/github/creimers/cmsplugin_iconlist/requirements/?branch=develop)
 # djangocms icon list plugin
