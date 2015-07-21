@@ -11,6 +11,8 @@ A djangocms plugin displaying font-awesome icons in a list, like so for example:
 
 ![preview](preview.png)
 
+Works with django 1.7 and 1.8, works with djangocms 3.0 and 3.1.
+
 ## Installation
 
 * ``pip install cmsplugin_iconlist``
