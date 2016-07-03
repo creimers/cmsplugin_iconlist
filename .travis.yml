@@ -3,16 +3,18 @@
 language: python
 
 python:
+  - 2.7
   - 3.4
   - 3.5
-  - 2.7
 
 env:
   matrix:
-    - DJANGO=1.8.12 CMS=3.1.5
-    - DJANGO=1.8.12 CMS=3.2.3
-    - DJANGO=1.9.5 CMS=3.1.5
-    - DJANGO=1.9.5 CMS=3.2.3
+    - DJANGO=1.8.13 CMS=3.1.5
+    - DJANGO=1.8.13 CMS=3.2.3
+    - DJANGO=1.8.13 CMS=3.3.0
+    - DJANGO=1.9.7 CMS=3.1.5
+    - DJANGO=1.9.7 CMS=3.2.3
+    - DJANGO=1.9.7 CMS=3.3.0
 
 install:
   - pip install -r test-requirements.txt
