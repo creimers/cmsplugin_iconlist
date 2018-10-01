@@ -1,3 +1,5 @@
+# Don't try this at home!
+
 [![Build Status](https://travis-ci.org/creimers/cmsplugin_iconlist.svg?branch=develop)](https://travis-ci.org/creimers/cmsplugin_iconlist)
 [![Coverage Status](https://coveralls.io/repos/creimers/cmsplugin_iconlist/badge.svg?branch=develop)](https://coveralls.io/r/creimers/cmsplugin_iconlist?branch=develop)
 [![Latest Version](https://img.shields.io/pypi/v/cmsplugin_iconlist.svg)](https://pypi.python.org/pypi/cmsplugin_iconlist)
